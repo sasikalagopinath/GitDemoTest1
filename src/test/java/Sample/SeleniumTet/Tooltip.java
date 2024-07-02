@@ -25,6 +25,10 @@ public class Tooltip {
 		
 		String tooTip = inputbox.getAttribute("title");
 		
+		System.out.println("The tiltle is: "+tooTip);
+		
+		System.out.println("The Tooltip tile extracted successfully");
+		
 		String expectedToolTip = "We ask for your age only for statistical purposes.";
 		
 		if(expectedToolTip.equals(tooTip))
