@@ -13,6 +13,7 @@ public class Framework {
 			revStr =revStr +str.charAt(i);
 		}
 		
+		
 		System.out.println("The Reversed String is: "+revStr);
 	}
 
